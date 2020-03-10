@@ -21,6 +21,7 @@ class School
   def sort
    
     new_roster = @roster.sort_by { |k, v| k}.to_h
+    sorted_roster = {}
     binding.pry
     puts 'adf'
   
