@@ -18,7 +18,6 @@ class School
   end
   
   def sort
-    # @roster.sort_by {|k, v| -v }.to_h
-    @roster.sort{ |a, b| b <=> a }.to_h
+    @roster.sort{ |a, b| a <=> b }.to_h
   end
 end
