@@ -26,8 +26,7 @@ class School
       sorted_roster[k] = v.sort
     end
     sorted_roster
-    binding.pry
-    puts 'adf'
+
   
     # @roster.sort{ |a, b| a <=> b }.to_h
   end
