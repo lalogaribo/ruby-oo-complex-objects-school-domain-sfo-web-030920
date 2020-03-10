@@ -20,6 +20,7 @@ class School
   def sort
    
     new_roster = @roster.sort_by { |k, v| k}.to_h
+    binding.pry
     @roster = new_roster.map{|k,v| v.sort}.to_h
   
     # @roster.sort{ |a, b| a <=> b }.to_h
