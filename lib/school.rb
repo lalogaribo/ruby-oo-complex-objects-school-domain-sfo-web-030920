@@ -22,7 +22,7 @@ class School
    
     new_roster = @roster.sort_by { |k, v| k}.to_h
     binding.pry
-    
+    puts 'adf'
   
     # @roster.sort{ |a, b| a <=> b }.to_h
   end
