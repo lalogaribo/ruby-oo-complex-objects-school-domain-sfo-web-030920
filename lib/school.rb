@@ -25,7 +25,7 @@ class School
     new_roster.each do |k, v|
       sorted_roster[k] = v.sort
     end
-    sorted_roster
+    sorted_roster.to_h
 
   
     # @roster.sort{ |a, b| a <=> b }.to_h
