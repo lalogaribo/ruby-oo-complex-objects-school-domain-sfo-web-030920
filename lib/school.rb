@@ -18,6 +18,9 @@ class School
   end
   
   def sort
+    @roster.map do |k, v| 
+     
+    end 
     @roster.sort_by { |k, v| k}.to_h
     # @roster.sort{ |a, b| a <=> b }.to_h
   end
