@@ -19,7 +19,7 @@ class School
   
   def sort
    
-    @roster = @roster.sort_by { |k, v| k}.to_h
+    new_roster = @roster.sort_by { |k, v| k}.to_h
     @roster = @roster.map do |k,v|
       
     end 
