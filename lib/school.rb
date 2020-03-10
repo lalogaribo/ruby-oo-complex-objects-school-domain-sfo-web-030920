@@ -20,7 +20,7 @@ class School
   
   def sort
    
-    new_roster = @roster.sort_by { |k, v| k}.to_h
+    new_roster = @roster.sort_by { |k, v| k}
     sorted_roster = {}
     new_roster.each do |k, v|
       sorted_roster[k] = v.sort
