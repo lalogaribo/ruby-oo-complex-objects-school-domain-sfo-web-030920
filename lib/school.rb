@@ -21,7 +21,7 @@ class School
    
     new_roster = @roster.sort_by { |k, v| k}.to_h
     @roster = new_roster.map{|k,v| v.sort}
-    end 
+  
     # @roster.sort{ |a, b| a <=> b }.to_h
   end
 end
