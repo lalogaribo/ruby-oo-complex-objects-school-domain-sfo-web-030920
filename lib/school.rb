@@ -22,8 +22,12 @@ class School
    
     new_roster = @roster.sort_by { |k, v| k}.to_h
     sorted_roster = {}
-    binding.pry
-    puts 'adf'
+    new_roster.each do |k, v|
+      sorted_roster[k] = v.sort
+    end
+    sorted_roster
+    # binding.pry
+    # puts 'adf'
   
     # @roster.sort{ |a, b| a <=> b }.to_h
   end
